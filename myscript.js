@@ -220,13 +220,14 @@ WA.room.onLeaveZone('doorOpener', () => {
 // Intelligans
 
 let IntGans;
+let firstGans=true;
 WA.room.onEnterZone('Intelligans_Zone', () => {
 	
-	if (Math.random()*10 < 1){
+	if (!firstGans && Math.random()*10 < 1){
 		WA.room.showLayer('Intelligans');
-		
 	}
 	else{
+		firstGans=false;
 		WA.room.hideLayer('Intelligans');
 		  IntGans = WA.ui.openPopup("IntGansPP", 'Sometimes you can find rare intelligent species near lakes...', [{
 			label: "Close",
@@ -253,8 +254,8 @@ WA.room.onLeaveZone('Intelligans_Zone', () => {
 //console.log(WA);
 //console.log(WA.chat);
 let schedule_txt;
-WA.chat.onChatMessage((message) => {
-	console.log("fu");
+WA.chat.onChatMessage(message => {
+	console.log(message);
     if (message == "schedule")
 	{
 		schedule_txt = "asd";
