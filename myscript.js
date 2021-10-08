@@ -217,18 +217,34 @@ WA.room.onLeaveZone('doorOpener', () => {
 });
 
 
+// Intelligans
 
-
-// Open the popup when we enter a given zone
-WA.room.onEnterZone('Poster01Zone', () => {
-     WA.room.showLayer('Poster01');
+let IntGans;
+WA.room.onEnterZone('Intelligans_Zone', () => {
+	
+	if (Math.random()*10 < 1){
+		WA.room.showLayer('Intelligans');
+		
+	}
+	else{
+		WA.room.hideLayer('Intelligans');
+		  IntGans = WA.ui.openPopup("IntGansPP", 'Sometimes you can find rare intelligent species near lakes...', [{
+			label: "Close",
+			className: "primary",
+			callback: (popup) => {
+				// Close the popup when the "Close" button is pressed.
+				popup.close();
+			}
+		}]);
+	}
 
 });
 
 // Close the popup when we leave the zone.
 
-WA.room.onLeaveZone('Poster01Zone', () => {
-   WA.room.hideLayer('Poster01');
+WA.room.onLeaveZone('Intelligans_Zone', () => {
+   WA.room.hideLayer('Intelligans');
+   IntGans.close();
 });
 
 
