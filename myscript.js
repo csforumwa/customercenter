@@ -254,7 +254,7 @@ WA.room.onLeaveZone('Intelligans_Zone', () => {
 //console.log(WA);
 //console.log(WA.chat);
 let schedule_txt;
-WA.chat.onChatMessage("schedule" => {
+WA.chat.onChatMessage(message => {
 	console.log(message);
     if (message == "schedule")
 	{
