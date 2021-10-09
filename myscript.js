@@ -14,7 +14,7 @@ let firstIntro = 0;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro00', () => {
 	if(firstIntro < 5){
-    Intro01PP = WA.ui.openPopup("Intro00Rect", 'Welcome! If you want to get an introduction, please walk up. otherwise, continue to the right', [{
+    Intro01PP = WA.ui.openPopup("Intro00Rect", 'Welcome! If you want to get an introduction, please walk up. If you have already seen the intro, continue to the right', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
