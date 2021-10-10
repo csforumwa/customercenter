@@ -1,7 +1,11 @@
 //WA.chat.sendChatMessage('Hello world', 'Mr Robot');
  
 
-
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 
 
 
@@ -139,6 +143,21 @@ WA.room.onEnterZone('Intro05', () => {
 WA.room.onLeaveZone('Intro05', () => {
     Intro05PP.close();
 });
+
+
+//SICK Videos
+
+WA.room.onEnterZone('SICK_Videos', () => {
+	var IDs = ["sA7xPesuQkc", "9bGTWOtZ1vs", "a9-UFlFSDCA", "WJ0V6batIbA", "ASqHUlKyR7I", "1YCtcWPJ2bA", "nx5En1lf4Tw", "uVhKnp9_784", "lxDH7o9qJwU", "JwC8QcyzJ7Q", "LotDsuxnP6Y", "TF-iMB6ZI6E", "VUXssRs-xlI", "6Edtkc5SK_0", "Di7ry0DP30U"];
+	idx = getRandomInt(0,IDs.length);
+	var ytlink = 'https://youtube.com/embed/'+IDs[idx]+'?autoplay=1';
+	WA.nav.openCoWebSite(ytlink);
+}
+
+WA.room.onLeaveZone('SICK_Videos', () => {
+    WA.nav.closeCoWebSite();
+});
+
 
 
 
