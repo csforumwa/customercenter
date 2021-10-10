@@ -152,7 +152,8 @@ WA.room.onEnterZone('SICK_Videos', () => {
 	var idx = getRandomInt(0,IDs.length);
 	var ytlink = 'https://youtube.com/embed/'+IDs[idx]+'?autoplay=1';
 	WA.nav.openCoWebSite(ytlink);
-}
+});
+
 
 WA.room.onLeaveZone('SICK_Videos', () => {
     WA.nav.closeCoWebSite();
