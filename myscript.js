@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
 
 
 /*Introduction Popups*/
-
+WA.room.hideLayer('Intelligans');
 
 let Intro00PP;
 let firstIntro = 0;
