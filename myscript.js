@@ -273,6 +273,26 @@ WA.room.onLeaveZone('Intelligans_Zone', () => {
 
 
 
+//FireZone
+let fz = true;
+WA.room.onEnterZone('FireZone', () => {
+	if(fz){
+		WA.nav.openCoWebSite('https://www.youtube.com/watch?v=1EBfxjSFAxQ');
+	}
+	else{
+		WA.nav.openCoWebSite('https://www.youtube.com/watch?v=HWc3WY3fuZU&t=32s');
+	}
+	fz= !fz;
+
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('FireZone', () => { 
+	WA.nav.closeCoWebSite();
+});
+
+
 
 //console.log(WA);
 //console.log(WA.chat);
