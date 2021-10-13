@@ -538,6 +538,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openTab",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/miro.com\/app\/board\/o9J_lqy9uBU=\/?invite_link_id=710186051956"
