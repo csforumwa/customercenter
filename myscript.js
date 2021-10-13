@@ -225,6 +225,18 @@ WA.room.onLeaveZone('CoffeeFun', () => {
 });
 
 
+// Doors
+// reveal toilet
+WA.room.onEnterZone('Toilet_Zone', () => {
+     WA.room.hideLayer('Toilet_roof');
+
+});
+
+//hide Toilet
+WA.room.onLeaveZone('Toilet_Zone', () => {
+   WA.room.showLayer('Toilet_roof');
+});
+
 
 // Doors
 // Open doors
@@ -233,8 +245,8 @@ WA.room.onEnterZone('doorOpener', () => {
 
 });
 
-// Close the popup when we leave the zone.
 
+// Close doors
 WA.room.onLeaveZone('doorOpener', () => {
    WA.room.showLayer('doors');
 });
