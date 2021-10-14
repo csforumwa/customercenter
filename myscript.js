@@ -131,7 +131,7 @@ WA.room.onLeaveZone('Intro04', () => {
 let Intro05PP;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro05', () => {
-    Intro05PP = WA.ui.openPopup("Intro05Rect", 'Please only enter the speaker stage if you are a speaker. For questions after a talk, please use the global chat (speech bubbles on the bottom left).', [{
+    Intro05PP = WA.ui.openPopup("Intro05Rect", 'Please only enter the speaker stage if you are a speaker. For questions after a talk, please use the global chat (mail icon on the top left).', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
