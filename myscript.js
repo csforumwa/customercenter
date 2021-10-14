@@ -318,6 +318,8 @@ WA.chat.onChatMessage(message => {
 	}
 });
 
-WA.room.onEnterZone('zone_wp_psirt1', () => {
-    WA.room.showLayer("wp_psirt1")
+//billboard Zone
+let pictures= {1:"https://sick.com/psirt",2:"https://sick.com/procurement"};
+WA.room.onEnterZone('billboard', () => {
+	Wa.nav.openCoWebSite(pictures[Math.round((Math.random()*100)) % Object.keys(pictures).length + 1]);
     });
