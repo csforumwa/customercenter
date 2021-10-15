@@ -148,6 +148,27 @@ WA.room.onLeaveZone('Intro05', () => {
 });
 
 
+
+let Intro06PP;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('Intro06', () => {
+    Intro06PP = WA.ui.openPopup("Intro06Rect", 'If you want to listen to a talk, please enter the listener area (in the main hall of the customer center).', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('Intro06', () => {
+    Intro06PP.close();
+});
+
+
 //SICK Videos
 
 WA.room.onEnterZone('SICK_Videos', () => {
