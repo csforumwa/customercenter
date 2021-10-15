@@ -589,7 +589,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/YuJosJuC_yY"
+                 "value":"https:\/\/www.youtube.com\/embed\/YuJosJuC_yY&autoplay=true"
                 }, 
                 {
                  "name":"openWebsitePolicy",
