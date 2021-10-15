@@ -350,7 +350,7 @@ WA.room.onLeaveZone('billboard', () => {
 
 //Welcome Zone
 WA.room.onEnterZone('welcomeposter', () => {
-	WA.nav.openCoWebSite("https://cdn.sick.com/media/workadvenure/cs_forum_46.png");
+	WA.nav.openCoWebSite("https://cdn.sick.com/media/workadventure/cs_forum_46.png");
     });
 
 WA.room.onLeaveZone('welcomeposter',() => {
