@@ -1744,18 +1744,6 @@
          "tileheight":32,
          "tiles":[
                 {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":40
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":42
-                        }],
-                 "id":0
-                }, 
-                {
                  "id":1,
                  "properties":[
                         {
@@ -2052,7 +2040,13 @@
                          "duration":150,
                          "tileid":46
                         }],
-                 "id":72
+                 "id":72,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "animation":[
@@ -2072,7 +2066,13 @@
                          "duration":150,
                          "tileid":47
                         }],
-                 "id":73
+                 "id":73,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":80,
@@ -2155,7 +2155,13 @@
                          "duration":150,
                          "tileid":62
                         }],
-                 "id":88
+                 "id":88,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "animation":[
@@ -2175,7 +2181,13 @@
                          "duration":150,
                          "tileid":63
                         }],
-                 "id":89
+                 "id":89,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "id":160,
