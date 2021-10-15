@@ -340,7 +340,20 @@ WA.chat.onChatMessage(message => {
 });
 
 //billboard Zone
-let pictures= {1:"https://sick.com/psirt",2:"https://sick.com/procurement"};
+let pictures= {1:"https://cdn.sick.com/media/workadventure/cs_forum_31.jpg",2:"https://cdn.sick.com/media/workadventure/cs_forum_32.jpg",3:"https://cdn.sick.com/media/workadventure/cs_forum_33.jpg",4:"https://cdn.sick.com/media/workadventure/cs_forum_34.jpg",5:"https://cdn.sick.com/media/workadventure/cs_forum_35.jpg",6:"https://cdn.sick.com/media/workadventure/cs_forum_36.jpg",7:"https://cdn.sick.com/media/workadventure/cs_forum_37.jpg",8:"https://cdn.sick.com/media/workadventure/cs_forum_38.jpg",9:"https://cdn.sick.com/media/workadventure/cs_forum_39.jpg",10:"https://cdn.sick.com/media/workadventure/cs_forum_40.jpg",11:"https://cdn.sick.com/media/workadventure/cs_forum_41.jpg",12:"https://cdn.sick.com/media/workadventure/cs_forum_42.jpg",13:"https://cdn.sick.com/media/workadventure/cs_forum_43.jpg",14:"https://cdn.sick.com/media/workadventure/cs_forum_44.png",15:"https://cdn.sick.com/media/workadventure/cs_forum_47.png",16:"https://cdn.sick.com/media/workadventure/cs_forum_48.png",17:"https://cdn.sick.com/media/workadventure/cs_forum_49.png",18:"https://cdn.sick.com/media/workadventure/cs_forum_50.png",19:"https://cdn.sick.com/media/workadventure/cs_forum_51.png",20:"https://cdn.sick.com/media/workadventure/cs_forum_52.png",21:"https://cdn.sick.com/media/workadventure/cs_forum_53.png",22:"https://cdn.sick.com/media/workadventure/cs_forum_54.png",23:"https://cdn.sick.com/media/workadventure/cs_forum_55.png",24:"https://cdn.sick.com/media/workadventure/cs_forum_56.png",25:"https://cdn.sick.com/media/workadventure/cs_forum_57.png",26:"https://cdn.sick.com/media/workadventure/cs_forum_58.png"};
 WA.room.onEnterZone('billboard', () => {
 	WA.nav.openCoWebSite(pictures[Math.round((Math.random()*100)) % Object.keys(pictures).length + 1]);
     });
+
+WA.room.onLeaveZone('billboard', () => {
+		WA.nav.closeCoWebSite();
+	});
+
+//Welcome Zone
+WA.room.onEnterZone('welcomeposter', () => {
+	WA.nav.openCoWebSite("");
+    });
+
+WA.room.onLeaveZone('welcomeposter',() => {
+	WA.nav.closeCoWebSite();
+	});
