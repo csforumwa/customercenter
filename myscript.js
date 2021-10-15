@@ -212,7 +212,6 @@ WA.room.onEnterZone('CoffeeFun', () => {
 		case 4:
 		WA.nav.openCoWebSite('https://youtube.com/embed/AYx_pAkr16M?autoplay=1');
 		outSec = 40;
-		outSec = 40;
 		break;
 		
 		case 5:
