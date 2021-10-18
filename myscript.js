@@ -356,7 +356,7 @@ WA.room.onEnterZone('welcomeposter', () => {
 		show_welcomeposter = false;
 		setTimeout(function() {
 			WA.nav.closeCoWebSite();
-		}, (6 * 1000));
+		}, (7 * 1000));
 	}
     });
 
