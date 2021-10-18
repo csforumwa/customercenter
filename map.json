@@ -138,7 +138,7 @@
                 {
                  "name":"openWebsiteWidth",
                  "type":"int",
-                 "value":100
+                 "value":85
                 }, 
                 {
                  "name":"zone",
