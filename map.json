@@ -131,6 +131,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openWebsiteWidth",
+                 "type":"string",
+                 "value":"85"
+                }, 
+                {
                  "name":"zone",
                  "type":"string",
                  "value":"welcomeposter"

@@ -23,6 +23,6 @@
     "fix": "node_modules/.bin/eslint --fix src/ . --ext .ts"
   },
   "dependencies": {
-    "cyclonedx-bom": "^0.0.9"
+    "cyclonedx-bom": "0.0.9"
   }
 }
