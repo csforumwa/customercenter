@@ -351,9 +351,15 @@ WA.room.onLeaveZone('billboard', () => {
 //Welcome Zone
 let show_welcomeposter = true;
 WA.room.onEnterZone('welcomeposter', () => {
-	setTimeout(function() {
+	if(show_welcomeposter) {	
+		setTimeout(function() {
+			WA.nav.closeCoWebSite();
+		}, (7 * 1000));
+		show_welcomeposter = false;
+	}
+	else {
 		WA.nav.closeCoWebSite();
-	}, (7 * 1000));
+	}
 	/*if(show_welcomeposter) {	
 		WA.nav.openCoWebSite("https://cdn.sick.com/media/workadventure/cs_forum_46.png");
 		WA.nav.
