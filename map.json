@@ -131,6 +131,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/cdn.sick.com\/media\/workadventure\/cs_forum_46.png"
+                }, 
+                {
                  "name":"openWebsiteWidth",
                  "type":"int",
                  "value":85
