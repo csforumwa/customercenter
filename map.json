@@ -132,8 +132,8 @@
          "properties":[
                 {
                  "name":"openWebsiteWidth",
-                 "type":"string",
-                 "value":"85"
+                 "type":"int",
+                 "value":85
                 }, 
                 {
                  "name":"zone",
