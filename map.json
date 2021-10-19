@@ -61,7 +61,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/cdn.sick.com\/media\/workadventure\/cs_forum_map.png"
                 }],
          "type":"tilelayer",
          "visible":true,
