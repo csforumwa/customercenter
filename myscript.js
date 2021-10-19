@@ -356,18 +356,12 @@ WA.room.onEnterZone('welcomeposter', () => {
 			WA.nav.closeCoWebSite();
 		}, (7 * 1000));
 		show_welcomeposter = false;
+		WA.room.hideLayer('welcomeposter');
 	}
 	else {
 		WA.nav.closeCoWebSite();
 	}
-	/*if(show_welcomeposter) {	
-		WA.nav.openCoWebSite("https://cdn.sick.com/media/workadventure/cs_forum_46.png");
-		WA.nav.
-		show_welcomeposter = false;
-		setTimeout(function() {
-			WA.nav.closeCoWebSite();
-		}, (7 * 1000));
-	}*/
+	 
     });
 
 WA.room.onLeaveZone('welcomeposter',() => {
