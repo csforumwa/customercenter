@@ -309,10 +309,10 @@ WA.room.onLeaveZone('Intelligans_Zone', () => {
 let fz = true;
 WA.room.onEnterZone('FireZone', () => {
 	if(fz){
-		WA.nav.openCoWebSite('https://www.youtube.com/watch?v=1EBfxjSFAxQ');
+		WA.nav.openCoWebSite('https://youtube.com/embed/1EBfxjSFAxQ?autoplay=1');
 	}
 	else{
-		WA.nav.openCoWebSite('https://www.youtube.com/watch?v=HWc3WY3fuZU&t=32s');
+		WA.nav.openCoWebSite('https://youtube.com/embed/HWc3WY3fuZU?t=32s&autoplay=1');
 	}
 	fz= !fz;
 
