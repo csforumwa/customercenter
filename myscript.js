@@ -358,9 +358,9 @@ WA.room.onEnterZone('welcomeposter', () => {
 		show_welcomeposter = false;
 		WA.room.hideLayer('welcomeposter');
 	}
-	else {
+	/*else {
 		WA.nav.closeCoWebSite();
-	}
+	}*/
 	 
     });
 
