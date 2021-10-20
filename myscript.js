@@ -169,6 +169,32 @@ WA.room.onLeaveZone('Intro06', () => {
 });
 
 
+
+
+let IntroFeedback;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('FeedbackArea', () => {
+	
+	WA.room.showLayer('FeedBackTiles');
+    IntroFeedback = WA.ui.openPopup("IntroFeedback", 'To leave feedback, just enter the FeedbackArea and use the "open shared document" feature!', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('Intro06', () => {
+	WA.room.hideLayer('FeedBackTiles');
+    IntroFeedback.close();
+});
+
+
+
 //SICK Videos
 
 WA.room.onEnterZone('SICK_Videos', () => {
@@ -358,9 +384,9 @@ WA.room.onEnterZone('welcomeposter', () => {
 		show_welcomeposter = false;
 		WA.room.hideLayer('welcomeposter');
 	}
-	/*else {
+	else {
 		WA.nav.closeCoWebSite();
-	}*/
+	}
 	 
     });
 
