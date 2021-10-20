@@ -175,7 +175,7 @@ let IntroShared;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('FeedbackArea', () => {
 	
-	WA.room.showLayer('FeedBackTiles');
+	WA.room.showLayer('FeedbackArea');
     IntroShared = WA.ui.openPopup("SharedRect", 'In discussion areas, you can use the "shared document" feature to collect your results', [{
         label: "Close",
         className: "primary",
@@ -188,7 +188,7 @@ WA.room.onEnterZone('FeedbackArea', () => {
 
 // Close the popup when we leave the zone.
 
-WA.room.onLeaveZone('IntroFeedback', () => {
+WA.room.onLeaveZone('FeedbackArea', () => {
 	WA.room.hideLayer('FeedBackTiles');
     IntroShared.close();
 });
@@ -212,7 +212,7 @@ WA.room.onEnterZone('FeedbackArea', () => {
 
 // Close the popup when we leave the zone.
 
-WA.room.onLeaveZone('IntroFeedback', () => {
+WA.room.onLeaveZone('FeedbackArea', () => {
 	WA.room.hideLayer('FeedBackTiles');
     IntroFeedback.close();
 });
