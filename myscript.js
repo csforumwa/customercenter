@@ -11,6 +11,7 @@ function getRandomInt(min, max) {
 
 /*Introduction Popups*/
 WA.room.hideLayer('Intelligans');
+WA.room.hideLayer('welcomeposter');
 
 let Intro00PP;
 let firstIntro = 0;
@@ -170,6 +171,29 @@ WA.room.onLeaveZone('Intro06', () => {
 
 
 
+let IntroShared;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('FeedbackArea', () => {
+	
+	WA.room.showLayer('FeedBackTiles');
+    IntroShared = WA.ui.openPopup("SharedRect", 'In discussion areas, you can use the "shared document" feature to collect your results', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('IntroFeedback', () => {
+	WA.room.hideLayer('FeedBackTiles');
+    IntroShared.close();
+});
+
+
 
 let IntroFeedback;
 // Open the popup when we enter a given zone
@@ -188,7 +212,7 @@ WA.room.onEnterZone('FeedbackArea', () => {
 
 // Close the popup when we leave the zone.
 
-WA.room.onLeaveZone('Intro06', () => {
+WA.room.onLeaveZone('IntroFeedback', () => {
 	WA.room.hideLayer('FeedBackTiles');
     IntroFeedback.close();
 });
