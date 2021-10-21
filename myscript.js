@@ -418,3 +418,23 @@ WA.room.onEnterZone('welcomeposter', () => {
 WA.room.onLeaveZone('welcomeposter',() => {
 	WA.nav.closeCoWebSite();
 	});
+
+let ThankYouPP;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('thankyouzone', () => {
+    ThankYouPP = WA.ui.openPopup("thankyou", 'We like to thank you all of you, who enabled the Cybersecurity Forum 2021 to happen. Especially we\'d like to thank:\r\nChristian Wolfsperger and Christian Jahner', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('thankyouzone', () => {
+    ThankYouPP.close();
+});
+    
