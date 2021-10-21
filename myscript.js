@@ -171,6 +171,27 @@ WA.room.onLeaveZone('Intro06', () => {
 });
 
 
+let Intro07PP;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('Intro07', () => {
+    Intro07PP = WA.ui.openPopup("Nett", 'Netiquette: \r\nbe helpful', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('Intro07', () => {
+    Intro07PP.close();
+});
+
+
+
 
 let IntroShared;
 // Open the popup when we enter a given zone
