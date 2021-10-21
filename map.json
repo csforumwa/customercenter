@@ -21,6 +21,12 @@
          "id":76,
          "name":"NetiquetteZone",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"Intro07"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":80,
