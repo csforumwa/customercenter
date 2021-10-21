@@ -945,6 +945,17 @@
                  "width":135.333333333333,
                  "x":32.6666666666667,
                  "y":859.333333333333
+                }, 
+                {
+                 "height":126,
+                 "id":32,
+                 "name":"thankyou",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":257,
+                 "x":977,
+                 "y":1535
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1043,7 +1054,7 @@
          "y":0
         }],
  "nextlayerid":76,
- "nextobjectid":29,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "properties":[
         {
