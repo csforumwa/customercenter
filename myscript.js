@@ -174,7 +174,7 @@ WA.room.onLeaveZone('Intro06', () => {
 let Intro07PP;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro07', () => {
-    Intro07PP = WA.ui.openPopup("Nett", "Netiquette: \r\nbe helpful\r\nuse appropriate audio equipment (headset) to avoid disturbing noises\r\nDon't say hello when you enter a room with a running session\r\nmake yourself visible - turn on your camera and use your real name\r\nspeak to other people, don't run away if someone wants to speak to you\r\nUse a language that invites other people to join (ask about preferences)\r\nDon't be rude (select non offensive names and avatars)", [{
+    Intro07PP = WA.ui.openPopup("Nett", "Netiquette: \r\n- Be helpful\r\n- Use appropriate audio equipment (headset) to avoid disturbing noises\r\n- Don't say hello when you enter a room with a running session\r\n- Make yourself visible - turn on your camera and use your real name\r\n- Speak to other people, don't run away if someone wants to talk to you\r\n- Use a language that invites other people to join (ask about preferences)\r\n- Don't be rude (select non offensive names and avatars)", [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
