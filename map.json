@@ -943,7 +943,7 @@
                  "y":466.666666666667
                 }, 
                 {
-                 "height":133.333333333333,
+                 "height":120.333333333333,
                  "id":25,
                  "name":"IntroFeedback",
                  "properties":[
@@ -955,9 +955,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":144,
-                 "x":2032,
-                 "y":1566.66666666667
+                 "width":157,
+                 "x":1993,
+                 "y":1572.66666666667
                 }, 
                 {
                  "height":140.666666666667,
@@ -1089,7 +1089,7 @@
          "y":0
         }],
  "nextlayerid":77,
- "nextobjectid":34,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {
