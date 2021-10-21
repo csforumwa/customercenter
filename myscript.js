@@ -422,7 +422,7 @@ WA.room.onLeaveZone('welcomeposter',() => {
 let ThankYouPP;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('thankyouzone', () => {
-    ThankYouPP = WA.ui.openPopup("thankyou", 'We like to thank you all of you, who enabled the Cybersecurity Forum 2021 to happen. Especially we\'d like to thank:\r\nChristian Wolfsperger and Christian Jahner', [{
+    ThankYouPP = WA.ui.openPopup("thankyou", 'We like to thank you all of you, who enabled the Cybersecurity Forum 2021 to happen. Especially we\'d like to thank:Andreas Teuscher, for giving us creative freedom.\r\nChristian Wolfsperger and Christian Jahner, for poking holes into Zscaler\r\nWolfgang Stadler, workadventu.re codemonkey\r\n', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
