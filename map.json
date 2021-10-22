@@ -491,7 +491,12 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"B002_Jitsi"
+                 "value":"B002_Left"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -509,7 +514,12 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"B002_Jitsi"
+                 "value":"B002_Right"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -528,6 +538,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B001_TableBottom"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -546,6 +561,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B001_TableTop"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -564,6 +584,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B003_Bottom"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -582,6 +607,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B003_Left"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -600,6 +630,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B003_Mid"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -617,7 +652,12 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"B003_Mid"
+                 "value":"B003_Right"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -636,6 +676,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B004_Top"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -654,6 +699,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B004_Bottom"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -672,6 +722,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"B005_Table"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"moderator"
                 }],
          "type":"tilelayer",
          "visible":true,
