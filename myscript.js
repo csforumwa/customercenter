@@ -66,7 +66,7 @@ let Intro02PP;
 
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('Intro02', () => {
-    Intro02PP = WA.ui.openPopup("Intro02Rect", 'You can use "Shift" to run', [{
+    Intro02PP = WA.ui.openPopup("Intro02Rect", 'You can use the mousewheel to zoom the map.', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -248,6 +248,29 @@ WA.room.onEnterZone('SICK_Videos', () => {
 	var idx = getRandomInt(0,IDs.length);
 	var ytlink = 'https://youtube.com/embed/'+IDs[idx]+'?autoplay=1';
 	WA.nav.openCoWebSite(ytlink);
+});
+
+
+
+let IntroCafe;
+// Open the popup when we enter a given zone
+WA.room.onEnterZone('CafeCollection', () => {
+	WA.room.showLayer('FeedBackTiles');
+    IntroCafe = WA.ui.openPopup("IntroFeedback", 'To collect topics for the World Cafe session, please write them on the "shared document" \r\n-If you add a topic, please write your name as well.\r\n- If you would like to upvote a topic, add a "+1".', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+
+WA.room.onLeaveZone('CafeCollection', () => {
+	WA.room.hideLayer('FeedBackTiles');
+    IntroCafe.close();
 });
 
 
