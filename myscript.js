@@ -256,7 +256,7 @@ let IntroCafe;
 // Open the popup when we enter a given zone
 WA.room.onEnterZone('CafeCollection', () => {
 	WA.room.showLayer('FeedBackTiles');
-    IntroCafe = WA.ui.openPopup("IntroFeedback", 'To collect topics for the World Cafe session, please write them on the "shared document" \r\n-If you add a topic, please write your name as well.\r\n- If you would like to upvote a topic, add a "+1".', [{
+    IntroCafe = WA.ui.openPopup("CoffeeCollect", 'To collect topics for the World Cafe session, please write them on the "shared document" \r\n-If you add a topic, please write your name as well.\r\n- If you would like to upvote a topic, add a "+1".', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
