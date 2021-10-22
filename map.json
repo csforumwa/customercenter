@@ -785,7 +785,7 @@
          "name":"Intelligans",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":80,
          "x":0,
          "y":0
@@ -809,7 +809,7 @@
          "name":"FeedBackTiles",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":80,
          "x":0,
          "y":0
@@ -996,7 +996,7 @@
                 {
                  "height":182.666666666666,
                  "id":35,
-                 "name":"",
+                 "name":"CoffeeCollect",
                  "rotation":0,
                  "type":"",
                  "visible":true,
