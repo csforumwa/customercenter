@@ -26,12 +26,72 @@ WA.room.hideLayer('10');
 
 
 WA.onInit().then(() => {
-    console.log('Player name: ', WA.player.id);
-	/*
-	switch (){
-		case 1: 
+    //console.log('Player name: ', );
+	
+	switch (WA.player.id.slice(-1)){
+		case "0":
+			WA.room.showLayer('01');
 		break;
-}*/
+		case "1":
+			WA.room.showLayer('02');
+		break;
+		case "2":
+			WA.room.showLayer('03');
+		
+		break;
+		case "3":
+			WA.room.showLayer('04');
+		
+		break;
+		case "4":
+			WA.room.showLayer('05');
+		
+		break;
+		case "5":
+			WA.room.showLayer('06');
+		
+		break;
+		case "6":
+			WA.room.showLayer('07');
+		
+		break;
+		case "7":
+			WA.room.showLayer('08');
+		
+		break;
+		case "8":
+			WA.room.showLayer('09');
+		
+		break;
+		case "9":
+			WA.room.showLayer('10');
+		
+		break;
+		case "a":
+			WA.room.showLayer('01');
+		
+		break;
+		case "b":
+			WA.room.showLayer('02');
+		
+		break;
+		case "c":
+			WA.room.showLayer('03');
+		
+		break;
+		case "d":
+			WA.room.showLayer('04');
+		
+		break;
+		case "e":
+			WA.room.showLayer('05');
+		
+		break;
+		default:
+			WA.room.showLayer('06');
+		
+		break;
+	}	
 
 })
 
