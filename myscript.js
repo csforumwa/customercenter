@@ -26,7 +26,7 @@ WA.room.hideLayer('10');
 
 
 WA.onInit().then(() => {
-    console.log('Player name: ', WA.player.name);
+    console.log('Player name: ', WA.player.id);
 	/*
 	switch (){
 		case 1: 
