@@ -91,7 +91,7 @@ WA.onInit().then(() => {
 			WA.room.showLayer('06');
 		
 		break;
-}*/
+	}	
 
 })
 
