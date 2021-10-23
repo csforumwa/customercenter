@@ -13,6 +13,27 @@ function getRandomInt(min, max) {
 WA.room.hideLayer('Intelligans');
 WA.room.hideLayer('welcomeposter');
 WA.room.hideLayer('FeedBackTiles');
+WA.room.hideLayer('01');
+WA.room.hideLayer('02');
+WA.room.hideLayer('03');
+WA.room.hideLayer('04');
+WA.room.hideLayer('05');
+WA.room.hideLayer('06');
+WA.room.hideLayer('07');
+WA.room.hideLayer('08');
+WA.room.hideLayer('09');
+WA.room.hideLayer('10');
+
+
+WA.onInit().then(() => {
+    console.log('Player name: ', WA.player.name);
+	/*
+	switch (){
+		case 1: 
+		break;
+}*/
+
+})
 
 let Intro00PP;
 let firstIntro = 0;
