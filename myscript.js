@@ -87,7 +87,7 @@ WA.onInit().then(() => {
 			WA.room.showLayer('05');
 		
 		break;
-		default
+		default:
 			WA.room.showLayer('06');
 		
 		break;
