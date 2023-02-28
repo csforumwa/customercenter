@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:d3a54f69-bc6b-40e9-9b57-8d888bb45ab7" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:bf086c28-cd52-42ba-9037-fbe4d27145da" version="1">
     <metadata>
-        <timestamp>2021-10-23T20:05:54.614Z</timestamp>
+        <timestamp>2023-02-28T10:08:40.668Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
                 <name>Node.js module</name>
-                <version>3.1.1</version>
+                <version>3.10.6</version>
             </tool>
         </tools>
         <component type="library" bom-ref="pkg:npm/workadventure-map-starter-kit@1.0.0">
@@ -25,6 +25,7 @@
     </metadata>
     <components>
         <component type="library" bom-ref="pkg:npm/cyclonedx-bom@0.0.9">
+            <author>Erlend Oftedal</author>
             <name>cyclonedx-bom</name>
             <version>0.0.9</version>
             <description>
@@ -52,6 +53,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/read-installed@4.0.3">
+            <author>Isaac Z. Schlueter</author>
             <name>read-installed</name>
             <version>4.0.3</version>
             <description>
@@ -79,6 +81,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/debuglog@1.0.1">
+            <author>Sam Roberts</author>
             <name>debuglog</name>
             <version>1.0.1</version>
             <description>
@@ -106,6 +109,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/read-package-json@2.1.2">
+            <author>Isaac Z. Schlueter</author>
             <name>read-package-json</name>
             <version>2.1.2</version>
             <description>
@@ -133,6 +137,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/glob@7.1.6">
+            <author>Isaac Z. Schlueter</author>
             <name>glob</name>
             <version>7.1.6</version>
             <description>
@@ -160,6 +165,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/fs.realpath@1.0.0">
+            <author>Isaac Z. Schlueter</author>
             <name>fs.realpath</name>
             <version>1.0.0</version>
             <description>
@@ -187,6 +193,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/inflight@1.0.6">
+            <author>Isaac Z. Schlueter</author>
             <name>inflight</name>
             <version>1.0.6</version>
             <description>
@@ -214,6 +221,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/once@1.4.0">
+            <author>Isaac Z. Schlueter</author>
             <name>once</name>
             <version>1.4.0</version>
             <description>
@@ -241,6 +249,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/wrappy@1.0.2">
+            <author>Isaac Z. Schlueter</author>
             <name>wrappy</name>
             <version>1.0.2</version>
             <description>
@@ -295,6 +304,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/minimatch@3.0.4">
+            <author>Isaac Z. Schlueter</author>
             <name>minimatch</name>
             <version>3.0.4</version>
             <description>
@@ -322,6 +332,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/brace-expansion@1.1.11">
+            <author>Julian Gruber</author>
             <name>brace-expansion</name>
             <version>1.1.11</version>
             <description>
@@ -349,6 +360,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/balanced-match@1.0.2">
+            <author>Julian Gruber</author>
             <name>balanced-match</name>
             <version>1.0.2</version>
             <description>
@@ -376,6 +388,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/concat-map@0.0.1">
+            <author>James Halliday</author>
             <name>concat-map</name>
             <version>0.0.1</version>
             <description>
@@ -403,6 +416,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/path-is-absolute@1.0.1">
+            <author>Sindre Sorhus</author>
             <name>path-is-absolute</name>
             <version>1.0.1</version>
             <description>
@@ -430,6 +444,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/json-parse-even-better-errors@2.3.1">
+            <author>Kat Marchán</author>
             <name>json-parse-even-better-errors</name>
             <version>2.3.1</version>
             <description>
@@ -457,6 +472,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/normalize-package-data@2.5.0">
+            <author>Meryn Stol</author>
             <name>normalize-package-data</name>
             <version>2.5.0</version>
             <description>
@@ -484,6 +500,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/hosted-git-info@2.8.9">
+            <author>Rebecca Turner</author>
             <name>hosted-git-info</name>
             <version>2.8.9</version>
             <description>
@@ -511,6 +528,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/resolve@1.20.0">
+            <author>James Halliday</author>
             <name>resolve</name>
             <version>1.20.0</version>
             <description>
@@ -538,6 +556,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/is-core-module@2.2.0">
+            <author>Jordan Harband</author>
             <name>is-core-module</name>
             <version>2.2.0</version>
             <description>
@@ -565,6 +584,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/has@1.0.3">
+            <author>Thiago de Arruda</author>
             <name>has</name>
             <version>1.0.3</version>
             <description>
@@ -592,6 +612,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/function-bind@1.1.1">
+            <author>Raynos</author>
             <name>function-bind</name>
             <version>1.1.1</version>
             <description>
@@ -619,6 +640,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/path-parse@1.0.6">
+            <author>Javier Blanco</author>
             <name>path-parse</name>
             <version>1.0.6</version>
             <description>
@@ -673,6 +695,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/validate-npm-package-license@3.0.4">
+            <author>Kyle E. Mitchell</author>
             <name>validate-npm-package-license</name>
             <version>3.0.4</version>
             <description>
@@ -700,6 +723,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/spdx-correct@3.1.1">
+            <author>Kyle E. Mitchell</author>
             <name>spdx-correct</name>
             <version>3.1.1</version>
             <description>
@@ -727,6 +751,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/spdx-expression-parse@3.0.1">
+            <author>Kyle E. Mitchell</author>
             <name>spdx-expression-parse</name>
             <version>3.0.1</version>
             <description>
@@ -754,6 +779,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/spdx-exceptions@2.3.0">
+            <author>The Linux Foundation</author>
             <name>spdx-exceptions</name>
             <version>2.3.0</version>
             <description>
@@ -781,6 +807,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/spdx-license-ids@3.0.10">
+            <author>Shinnosuke Watanabe</author>
             <name>spdx-license-ids</name>
             <version>3.0.10</version>
             <description>
@@ -808,6 +835,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/npm-normalize-package-bin@1.0.1">
+            <author>Isaac Z. Schlueter</author>
             <name>npm-normalize-package-bin</name>
             <version>1.0.1</version>
             <description>
@@ -835,6 +863,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/readdir-scoped-modules@1.1.0">
+            <author>Isaac Z. Schlueter</author>
             <name>readdir-scoped-modules</name>
             <version>1.1.0</version>
             <description>
@@ -862,6 +891,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/dezalgo@1.0.3">
+            <author>Isaac Z. Schlueter</author>
             <name>dezalgo</name>
             <version>1.0.3</version>
             <description>
@@ -943,6 +973,7 @@
             </externalReferences>
         </component>
         <component type="library" bom-ref="pkg:npm/slide@1.1.6">
+            <author>Isaac Z. Schlueter</author>
             <name>slide</name>
             <version>1.1.6</version>
             <description>
@@ -997,4 +1028,97 @@
             </externalReferences>
         </component>
     </components>
+    <dependencies>
+        <dependency ref="pkg:npm/debuglog@1.0.1"/>
+        <dependency ref="pkg:npm/fs.realpath@1.0.0"/>
+        <dependency ref="pkg:npm/wrappy@1.0.2"/>
+        <dependency ref="pkg:npm/once@1.4.0">
+            <dependency ref="pkg:npm/wrappy@1.0.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/inflight@1.0.6">
+            <dependency ref="pkg:npm/once@1.4.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/inherits@2.0.4"/>
+        <dependency ref="pkg:npm/balanced-match@1.0.2"/>
+        <dependency ref="pkg:npm/concat-map@0.0.1"/>
+        <dependency ref="pkg:npm/brace-expansion@1.1.11">
+            <dependency ref="pkg:npm/balanced-match@1.0.2"/>
+            <dependency ref="pkg:npm/concat-map@0.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/minimatch@3.0.4">
+            <dependency ref="pkg:npm/brace-expansion@1.1.11"/>
+        </dependency>
+        <dependency ref="pkg:npm/path-is-absolute@1.0.1"/>
+        <dependency ref="pkg:npm/glob@7.1.6">
+            <dependency ref="pkg:npm/fs.realpath@1.0.0"/>
+            <dependency ref="pkg:npm/inflight@1.0.6"/>
+            <dependency ref="pkg:npm/inherits@2.0.4"/>
+            <dependency ref="pkg:npm/minimatch@3.0.4"/>
+            <dependency ref="pkg:npm/path-is-absolute@1.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/json-parse-even-better-errors@2.3.1"/>
+        <dependency ref="pkg:npm/hosted-git-info@2.8.9"/>
+        <dependency ref="pkg:npm/function-bind@1.1.1"/>
+        <dependency ref="pkg:npm/has@1.0.3">
+            <dependency ref="pkg:npm/function-bind@1.1.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/is-core-module@2.2.0">
+            <dependency ref="pkg:npm/has@1.0.3"/>
+        </dependency>
+        <dependency ref="pkg:npm/path-parse@1.0.6"/>
+        <dependency ref="pkg:npm/resolve@1.20.0">
+            <dependency ref="pkg:npm/is-core-module@2.2.0"/>
+            <dependency ref="pkg:npm/path-parse@1.0.6"/>
+        </dependency>
+        <dependency ref="pkg:npm/semver@5.7.1"/>
+        <dependency ref="pkg:npm/spdx-exceptions@2.3.0"/>
+        <dependency ref="pkg:npm/spdx-license-ids@3.0.10"/>
+        <dependency ref="pkg:npm/spdx-expression-parse@3.0.1">
+            <dependency ref="pkg:npm/spdx-exceptions@2.3.0"/>
+            <dependency ref="pkg:npm/spdx-license-ids@3.0.10"/>
+        </dependency>
+        <dependency ref="pkg:npm/spdx-correct@3.1.1">
+            <dependency ref="pkg:npm/spdx-expression-parse@3.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/validate-npm-package-license@3.0.4">
+            <dependency ref="pkg:npm/spdx-correct@3.1.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/normalize-package-data@2.5.0">
+            <dependency ref="pkg:npm/hosted-git-info@2.8.9"/>
+            <dependency ref="pkg:npm/resolve@1.20.0"/>
+            <dependency ref="pkg:npm/semver@5.7.1"/>
+            <dependency ref="pkg:npm/validate-npm-package-license@3.0.4"/>
+        </dependency>
+        <dependency ref="pkg:npm/npm-normalize-package-bin@1.0.1"/>
+        <dependency ref="pkg:npm/read-package-json@2.1.2">
+            <dependency ref="pkg:npm/glob@7.1.6"/>
+            <dependency ref="pkg:npm/json-parse-even-better-errors@2.3.1"/>
+            <dependency ref="pkg:npm/normalize-package-data@2.5.0"/>
+            <dependency ref="pkg:npm/npm-normalize-package-bin@1.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/asap@2.0.6"/>
+        <dependency ref="pkg:npm/dezalgo@1.0.3">
+            <dependency ref="pkg:npm/asap@2.0.6"/>
+        </dependency>
+        <dependency ref="pkg:npm/graceful-fs@4.2.6"/>
+        <dependency ref="pkg:npm/readdir-scoped-modules@1.1.0">
+            <dependency ref="pkg:npm/dezalgo@1.0.3"/>
+            <dependency ref="pkg:npm/graceful-fs@4.2.6"/>
+        </dependency>
+        <dependency ref="pkg:npm/slide@1.1.6"/>
+        <dependency ref="pkg:npm/util-extend@1.0.3"/>
+        <dependency ref="pkg:npm/read-installed@4.0.3">
+            <dependency ref="pkg:npm/debuglog@1.0.1"/>
+            <dependency ref="pkg:npm/read-package-json@2.1.2"/>
+            <dependency ref="pkg:npm/readdir-scoped-modules@1.1.0"/>
+            <dependency ref="pkg:npm/slide@1.1.6"/>
+            <dependency ref="pkg:npm/util-extend@1.0.3"/>
+        </dependency>
+        <dependency ref="pkg:npm/cyclonedx-bom@0.0.9">
+            <dependency ref="pkg:npm/read-installed@4.0.3"/>
+        </dependency>
+        <dependency ref="pkg:npm/workadventure-map-starter-kit@1.0.0">
+            <dependency ref="pkg:npm/cyclonedx-bom@0.0.9"/>
+        </dependency>
+    </dependencies>
 </bom>
